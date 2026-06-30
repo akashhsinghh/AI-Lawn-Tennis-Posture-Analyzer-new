@@ -1,0 +1,19 @@
+# ===========================================================
+# AI Lawn Tennis Posture Engine - Python dependencies
+# ===========================================================
+# Install everything with:
+#     pip install -r requirements.txt
+#
+# Notes:
+#  - mediapipe currently needs numpy < 2.0, so numpy is pinned.
+#  - opencv-python-headless is used (no GUI windows needed since we
+#    save annotated images/videos and show them in Streamlit).
+#    If you DO want pop-up OpenCV windows, replace it with opencv-python.
+# ===========================================================
+
+mediapipe==0.10.14
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+streamlit==1.38.0
